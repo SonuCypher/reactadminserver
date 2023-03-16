@@ -1,0 +1,3 @@
+CREATE DATABASE pernadmin;
+
+CREATE TABLE users(user_id SERIAL PRIMARY KEY,name VARCHAR(255),role VARCHAR(255))
